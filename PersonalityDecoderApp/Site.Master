@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PersonalityDecoderApp.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personality Decoder - Dhruvita Purohit</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body style="margin:0; background:#f5f1e6; font-family:Segoe UI, sans-serif;">
+
+    <form runat="server">
+
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+
+        <!-- Minimal Navbar -->
+        <div style="
+            background:#8b5e3c;
+            padding:15px 30px;
+            color:white;
+            font-size:18px;
+            font-weight:600;
+        ">
+            Personality Decoder
+        </div>
+
+        <!-- Main Content -->
+        <div style="
+            max-width:900px;
+            margin:auto;
+            padding:20px;
+        ">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <!-- Footer -->
+        <div style="
+            text-align:center;
+            padding:15px;
+            color:#7a6a58;
+            font-size:14px;
+        ">
+            © <%: DateTime.Now.Year %> • Built by Dhruvita Purohit with ASP.NET Web Forms
+        </div>
+
+    </form>
+
+</body>
+</html>
