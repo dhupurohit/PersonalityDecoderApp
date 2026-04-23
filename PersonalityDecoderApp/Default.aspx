@@ -36,18 +36,18 @@
 
                 <asp:ListItem Text="Select Rashi" Value="" />
 
-                <asp:ListItem Text="Aries (A, L, E)" Value="Aries" />
-                <asp:ListItem Text="Taurus (B, V, U)" Value="Taurus" />
-                <asp:ListItem Text="Gemini (K, C, G)" Value="Gemini" />
-                <asp:ListItem Text="Cancer (D, H)" Value="Cancer" />
-                <asp:ListItem Text="Leo (M, T)" Value="Leo" />
-                <asp:ListItem Text="Virgo (P, Th, N)" Value="Virgo" />
-                <asp:ListItem Text="Libra (R, T)" Value="Libra" />
-                <asp:ListItem Text="Scorpio (N, Y)" Value="Scorpio" />
-                <asp:ListItem Text="Sagittarius (Bh, Dh, Ph)" Value="Sagittarius" />
-                <asp:ListItem Text="Capricorn (Kh, J)" Value="Capricorn" />
-                <asp:ListItem Text="Aquarius (G, S, Sh)" Value="Aquarius" />
-                <asp:ListItem Text="Pisces (D, Ch, Z)" Value="Pisces" />
+                <asp:ListItem Text="Aries(मेष) (A, L, E)" Value="Aries" />
+                <asp:ListItem Text="Taurus(वृषभ) (B, V, U)" Value="Taurus" />
+                <asp:ListItem Text="Gemini(मिथुन) (K, C, G)" Value="Gemini" />
+                <asp:ListItem Text="Cancer(कर्क) (D, H)" Value="Cancer" />
+                <asp:ListItem Text="Leo(सिंह) (M, T)" Value="Leo" />
+                <asp:ListItem Text="Virgo(कन्या) (P, Th, N)" Value="Virgo" />
+                <asp:ListItem Text="Libra(तुला) (R, T)" Value="Libra" />
+                <asp:ListItem Text="Scorpio(वृश्चिक) (N, Y)" Value="Scorpio" />
+                <asp:ListItem Text="Sagittarius(धनु) (Bh, Dh, Ph)" Value="Sagittarius" />
+                <asp:ListItem Text="Capricorn(मकर) (Kh, J)" Value="Capricorn" />
+                <asp:ListItem Text="Aquarius(कुम्भ) (G, S, Sh)" Value="Aquarius" />
+                <asp:ListItem Text="Pisces(मीन) (D, Ch, Z)" Value="Pisces" />
 
             </asp:DropDownList>
 
